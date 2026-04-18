@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/gh"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/Freecey/gh-minimax-oauth-demo/internal/gh"
+	"github.com/Freecey/gh-minimax-oauth-demo/pkg/cmdutil"
+	"github.com/Freecey/gh-minimax-oauth-demo/pkg/iostreams"
 	"github.com/spf13/cobra"
 )
 

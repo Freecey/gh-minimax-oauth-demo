@@ -8,10 +8,10 @@ import (
 	"net/url"
 
 	"github.com/atotto/clipboard"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/Freecey/gh-minimax-oauth-demo/api"
+	"github.com/Freecey/gh-minimax-oauth-demo/internal/browser"
+	"github.com/Freecey/gh-minimax-oauth-demo/internal/ghinstance"
+	"github.com/Freecey/gh-minimax-oauth-demo/pkg/iostreams"
 	"github.com/cli/oauth"
 
 	ghauth "github.com/cli/go-gh/v2/pkg/auth"
