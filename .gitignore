@@ -1,0 +1,63 @@
+# Binaires et fichiers compilés
+gh
+gh.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+cmd/gh/gh
+
+# Dépendances Go
+vendor/
+.sum
+
+# Fichiers de test
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Dépendances de modules
+go.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Configuration locale
+.env
+.env.local
+config.local.json
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Fichiers de build
+build/
+dist/
+bin/
+
+# Documentation générée
+docs/_build/
+docs/site/
+
+# Outils
+.github/changelog
+.editorconfig
+
+# WSL
+wsl.exe
